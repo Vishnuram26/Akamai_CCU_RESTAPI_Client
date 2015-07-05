@@ -16,7 +16,9 @@ For proper operation of the sample scripts, the following perl modules are recom
 The API code contains the 3 major Modules
 
 "Purge Request" : Submits a request to purge Edge content represented by one or more ARLs/URLs or one or more CP codes.
+
 "Purge Status"  : Returns the status of the given purgeId.
+
 "Queue Length"  : Returns the number of outstanding objects in the user's queue.
 
 ----------------------------------------------------
@@ -35,7 +37,9 @@ For documentation page
 Sample Output of the API code:
 
 $ perl REST_CCU_Purge.pl
+
 Akamai Luna Control Center Username: <test>
+
 Akamai Luna Control Center Password:
 
 please choose the method you want to run?
