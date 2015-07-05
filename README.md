@@ -1,12 +1,5 @@
 # Akamai_CCU_RESTAPI_Client
 REST API client to submit CCU(Purge) request to Akamai
-##
-#Author
-#Vishnu Ram Gopal
-#vishnuraamg@gmail.com
-##
-
-README.txt - Akamai RESTfull service CCU API perl sample code.
 
 Module Requirements
 ----------------------------------------------------
@@ -18,6 +11,7 @@ For proper operation of the sample scripts, the following perl modules are recom
  * HTTP::Responses
  * Term::ReadKey;
  * Getopt::Long 
+
 ----------------------------------------------------
 The API code contains the 3 major Modules
 
@@ -46,10 +40,14 @@ Akamai Luna Control Center Password:
 
 please choose the method you want to run?
 1.submit_Purge()
+
 2.get_Purge_Status()
+
 3.get_Q_Length()
+
 4.exit
 which do you choose?(a number)
+
 
 
 *************************************************
