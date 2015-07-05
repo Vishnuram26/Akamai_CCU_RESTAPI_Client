@@ -39,6 +39,7 @@ Akamai Luna Control Center Username: <test>
 Akamai Luna Control Center Password:
 
 please choose the method you want to run?
+
 1.submit_Purge()
 
 2.get_Purge_Status()
@@ -78,13 +79,21 @@ sample successful purge submission:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 estimatedSeconds        :420
+
  progressUri    :/ccu/v2/purges/d6c4f2dd-ba90-11e3-a2fe-e28522fee285
+
  purgeId        :d6c4f2dd-ba90-11e3-a2fe-e28522fee285
+
  supportId      :17PY1396461698365120-310707296
+
  httpStatus     :201
+
  detail :Request accepted.
+
  pingAfterSeconds       :420
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -101,13 +110,18 @@ Sample Error on a Q request status:
  Details
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 401 Unauthorized
+
 401 Unauthorized
+
 
 You are not authorized to access that resource
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 ---------------------------------------------------------------------------------------
 
 
-For troubleshooting purposes if the Response headers are needed, we can uncomment the print statement in the module printheaders();
+For troubleshooting purpose if the Response headers are needed, the print statement in the module printheaders() can be uncommented;
